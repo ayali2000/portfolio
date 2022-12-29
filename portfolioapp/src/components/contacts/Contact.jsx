@@ -1,4 +1,4 @@
-import { Phone, WhatsApp, Email } from "@mui/icons-material"
+import { Phone, WhatsApp, Email, Send } from "@mui/icons-material"
 import "./contact.css"
 
 
@@ -24,8 +24,8 @@ const Contact = () => {
             </div>
             <form method="POST">
             <div className='confrm'>
-              <input type="text" className="emailfrm" placeholder="eg: aliarafatyassin@gmail.com" />
-              <button>submit</button>
+              <input type="text" className="emailfrm" placeholder="example@gmail.com" />
+              <button><Send /> </button>
             </div>
             </form>
           </div>

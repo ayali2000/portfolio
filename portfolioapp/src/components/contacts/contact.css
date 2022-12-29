@@ -51,6 +51,8 @@
    display: flex;
    background-color: blue;
    position: relative;
+   margin-left: 18px;
+   margin-right: 20px;
    
 }
 
@@ -58,7 +60,7 @@
     position: absolute;
     background-color: #27AE60;
     height: 95%;
-    width: 100px;
+    width: 50px;
     border: none;
     right: 0;
     top: 1px;
