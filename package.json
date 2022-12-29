@@ -1,13 +1,8 @@
 {
-  "homepage": "https://ayali2000.github.io/portfolio",
   "dependencies": {
     "@material-ui/core": "^4.12.4",
     "@material-ui/icons": "^4.11.3"
   },
-  "scripts": {
-  "predeploy": "npm run build",
-  "deploy": "gh-pages -d build"
-},
   "devDependencies": {
     "gh-pages": "^4.0.0"
   }
