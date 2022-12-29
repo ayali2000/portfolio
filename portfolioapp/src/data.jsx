@@ -12,7 +12,7 @@ export const mydata = [
         "name": "arafatss",
         "email": "aliarafatyassin@gmail.com",
         "text": "New Me Going to work",
-        "phone": "assets/Screenshot 2022-10-25 090919.png",
+        "phone": "assets/fin.png",
         "registrationDate": "2022-12-02"
     },
     {
