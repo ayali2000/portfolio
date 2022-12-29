@@ -1,0 +1,79 @@
+.work{
+    width:100vw;
+    background-color: #27AE60;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.workWrapper{
+    height: 300px;
+    width: 550px;
+    background-color: white;
+    border-radius: 20px;
+    position: relative;
+    -webkit-box-shadow:0px 0px 10px 3px rgba(0,0,0,0.68);
+    box-shadow: 0px 0px 10px 3px rgba(0,0,0,0.68);
+}
+
+.Arrow{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: white;
+    border: 5px solid #27AE60;
+    position: absolute;
+    cursor: pointer;
+    top: 125px;
+}
+
+.workimg{
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.lArrow{
+   left: -30px;
+}
+
+.rArrow{
+   right: -30px;
+}
+
+
+
+@media only screen and (max-width:768px) {
+    .workWrapper{
+    height: 250px;
+    width: 400px;
+    background-color: white;
+    border-radius: 20px;
+    position: relative;
+    -webkit-box-shadow:0px 0px 10px 3px rgba(0,0,0,0.68);
+    box-shadow: 0px 0px 10px 3px rgba(0,0,0,0.68);
+}
+} 
+
+@media only screen and (max-width:600px) {
+    .introWrapper{
+        display: flex;
+        flex-direction: column;
+        margin-top: 50px;
+    }
+
+    .introimg{
+        object-fit: cover;
+        height: 330px;
+        width: 230px;
+        border-radius: 30px;
+        border: 5px solid #27AE60;
+        transform: rotate(20deg);
+    }
+    .introRight>h1{
+        font-size: 35px;
+    }
+    .Arrow{
+        display: none;
+    }
+}

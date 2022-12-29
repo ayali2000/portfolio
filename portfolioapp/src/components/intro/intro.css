@@ -1,0 +1,138 @@
+.section{
+    height: 100vh;
+    width: 100vw;
+}
+
+.intro{
+    width:100vw;
+    scroll-snap-align: start;
+}
+
+.introWrapper{
+    height: 100%;
+   display: flex;
+}
+
+.introLeft{
+    height: 100%;
+    flex: 6;
+    display: flex;
+    align-items: flex-end;
+}
+
+.introdesign{
+    height: 90%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #27AE60;
+    margin-top: 50px;
+    border-top-right-radius: 100%;
+}
+
+.introimg{
+    object-fit: cover;
+    height: 500px;
+    width: 400px;
+    border-radius: 30px;
+    border: 7px solid #27AE60;
+    transform: rotate(30deg);
+}
+
+
+.introRight{
+    flex: 6;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 50px;
+    position: relative;
+}
+
+.cv{
+    width: 170px;
+    height: 40px;
+    border-radius: 30px;
+    background-color: #27AE60;
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    margin-top: 25px;
+}
+
+.cv>a{
+    text-decoration: none;
+}
+
+.cv>span{
+    position: absolute;
+}
+.cv>div{
+    height: 30px;
+    width: 50px;
+    background-color: white;
+    border-radius: 20px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+
+.introRight>h1{
+    font-size: 60px;
+    margin: 6px 0;
+    color: #27AE60;
+}
+
+.introRight>h3{
+    font-size: 30px;
+    font-weight: normal;
+    display: flex;
+    gap: 10px;
+}
+
+
+@media only screen and (max-width:700px) {
+    .introWrapper{
+        display: flex;
+        flex-direction: column;
+        margin-top: 50px;
+    }
+
+    .introimg{
+        object-fit: cover;
+        height: 400px;
+        width: 650px;
+        border-radius: 30px;
+        border: 5px solid #27AE60;
+        transform: rotate(20deg);
+    }
+    .introRight>h1{
+        font-size: 35px;
+    }
+}
+
+
+@media only screen and (max-width:1000px) {
+    .introRight{
+        margin-top: 70px;
+    }
+
+    .introimg{
+        object-fit: cover;
+        height: 500px;
+        width: 350px;
+        border-radius: 30px;
+        border: 5px solid #27AE60;
+        transform: rotate(20deg);
+    }
+
+    .introRight>h1{
+        font-size: 50px;
+        margin: 2px 0;
+    }
+}
