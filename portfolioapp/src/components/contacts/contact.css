@@ -49,7 +49,6 @@
 
 .confrm{
    display: flex;
-   gap: 0;
    background-color: blue;
    position: relative;
    
@@ -99,8 +98,7 @@
         border-bottom-left-radius: 40px;
         border: 2px solid #27AE60;
         display: flex;
-        flex-direction: row;
-        align-items: center;
+        flex-direction: column;
         justify-content: center;
     }
 
@@ -109,6 +107,17 @@
         margin-top: 0;
         margin-bottom: 5px;
         font-size: 30px;
-        -webkit-text-stroke-color: white;
+    }
+
+    .info{
+        border: none;
+    }
+
+    .confrm{
+        margin-left: 18px;
+    }
+    .confrm>button{
+        width: 60px;
+        color: white;
     }
 }
