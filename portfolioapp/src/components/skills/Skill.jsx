@@ -18,7 +18,7 @@ const skills = [
 },
 {
   "image": 'assets/bootstrap.png',
-  "progress": 75,
+  "progress": 90,
   "name": 'Bootstrap'
 },
 {
