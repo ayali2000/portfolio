@@ -1,6 +1,6 @@
 .section{
     height: 100vh;
-    width: 100vw;
+    width: 100%;
 }
 
 .intro{
@@ -111,6 +111,11 @@
         border: 5px solid #27AE60;
         transform: rotate(20deg);
     }
+
+    .introRight{ 
+        justify-content: none;
+    }
+
     .introRight>h1{
         font-size: 35px;
     }

@@ -16,12 +16,12 @@ const Controls = () => {
     icon: <WorkHistory />
   },
   {
-    href:"#works",
+    href:"#skill",
     className: "control control-3",
     icon: <Work />
   },
   {
-    href:"#testimonial",
+    href:"#works",
     className: "control control-4",
     icon: <ContactEmergency />
   },

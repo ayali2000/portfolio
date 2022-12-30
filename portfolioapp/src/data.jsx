@@ -4,7 +4,7 @@ export const mydata = [
         "name": "arafat",
         "email": "aliarafatyassin@gmail.com",
         "text": "New Me Going to work New Me Going to work New Me Going to work New Me Going to work New Me Going to work New Me Going to work New Me Going to work",
-        "phone": "assets/photo_2022-12-21_06-26-42.jpg",
+        "img": "assets/photo_2022-12-21_06-26-42.jpg",
         "registrationDate": "2022-12-02"
     },
     {
@@ -12,7 +12,7 @@ export const mydata = [
         "name": "arafatss",
         "email": "aliarafatyassin@gmail.com",
         "text": "New Me Going to work",
-        "phone": "assets/fin.png",
+        "img": "assets/fin.png",
         "registrationDate": "2022-12-02"
     },
     {
@@ -20,7 +20,7 @@ export const mydata = [
         "name": "arafatss",
         "email": "aliarafatyassin@gmail.com",
         "text": "New Me Going to work",
-        "phone": "assets/youtube.png",
+        "img": "assets/youtube.png",
         "registrationDate": "2022-12-02"
     },
     {
@@ -28,7 +28,7 @@ export const mydata = [
         "name": "arafat",
         "email": "aliarafatyassin@gmail.com",
         "text": "New Me Going to work",
-        "phone": "assets/whatsapp.jpg",
+        "img": "assets/whatsapp.jpg",
         "registrationDate": "2022-12-02"
     },
     {
@@ -36,7 +36,7 @@ export const mydata = [
         "name": "arafat",
         "email": "aliarafatyassin@gmail.com",
         "text": "New Me Going to work",
-        "phone": "assets/youtube.png",
+        "img": "assets/youtube.png",
         "registrationDate": "2022-12-02"
     },
     {
@@ -44,7 +44,7 @@ export const mydata = [
         "name": "arafat",
         "email": "aliarafatyassin@gmail.com",
         "text": "New Me Going to work",
-        "phone": "assets/twit.png",
+        "img": "assets/twit.png",
         "registrationDate": "2022-12-02"
     },
 ];

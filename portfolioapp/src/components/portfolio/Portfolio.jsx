@@ -29,7 +29,7 @@ const selectitem = (text) => {
   return (
     <section className="section sec3 portfolio" id="portfolio">
       <div className="portfolioWrapper">
-        <h1 className="portfoliohead">Portfolio</h1>
+        <h1 className="portfoliohead">Projects</h1>
         <nav className="ports">
           <ul>
             {butlist.map((each) => (
@@ -40,7 +40,7 @@ const selectitem = (text) => {
         <div className="row row-cols-lg-4 row-cols-1 row-cols-md-3 row-cols-sm-2 portitemsWrapper">
           {mydata.map((each) => (
             <div className="col col-lg-3 col-md-5 col-sm-5 col-11 portitem">
-              <img src={each.phone} alt="" className="portimg" />
+              <img src={each.img} alt="" className="portimg" />
               <div className="hov">
                 <a href="#"><GitHub className='git'/></a>
                 <a href="#"><Link className='git'/></a>

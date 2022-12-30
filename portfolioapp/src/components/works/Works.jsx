@@ -12,7 +12,7 @@ const Works = () => {
     setWorkimg(workimg === mydata.length-1 ? 0 : workimg + 1)
   }
 
-  let url = mydata[workimg].phone
+  let url = mydata[workimg].img
 
   return (
     <section className="section work" id="works">
