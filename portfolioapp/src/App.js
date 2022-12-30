@@ -3,7 +3,7 @@ import Intro from "./components/intro/Intro";
 import Controls from "./components/controls/Controls";
 import "./global.css"
 import Portfolio from "./components/portfolio/Portfolio";
-import Testimonial from "./components/testimonial/Testimonial";
+import Skill from "./components/skills/Skill";
 import Works from "./components/works/Works";
 import Contact from "./components/contacts/Contact";
 import { useState } from "react"
@@ -20,8 +20,8 @@ function App() {
        <Header mode={mode}  setMode={setMode} />
        <Intro />
        <Portfolio />
+       <Skill />
        <Works />
-       <Testimonial />
        <Contact />
     </main>
     <Controls />
